@@ -1,0 +1,129 @@
+body {
+  box-sizing: border-box;
+}
+
+main {
+  background-color: rgb(224, 232, 255);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6em;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.background-desktop {
+  position: relative;
+  top: -11.5em;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 375px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.5em;
+  overflow: hidden;
+  box-shadow: 1em 1em 1em rgb(56 42 225 / 8%);
+  margin-inline: 2em;
+  margin-top: 6em;
+
+  position: absolute;
+}
+
+.container-1 img {
+  width: 100%;
+}
+
+.container-2 {
+  padding-inline: 3em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.container-2 h2 {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 0;
+  opacity: 0.6;
+}
+
+.container-3 {
+  margin-block: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(149 149 152 / 11%);
+  padding-inline: 1em;
+  border-radius: 0.4em;
+}
+
+.container-3 p {
+  margin: 0;
+  /* margin-top: 0.5em; */
+}
+
+.container-3 h5 p {
+  opacity: 0.6;
+}
+
+.change {
+  margin-left: auto;
+  color: rgb(56, 42, 225);
+  font-weight: 600;
+}
+
+.change:hover {
+  text-decoration: none;
+}
+
+.payment {
+  display: flex;
+  text-decoration: none;
+  border-radius: 0.4em;
+  padding-block: 0.6em;
+  margin-bottom: 1em;
+  box-shadow: 0em 1em 1em rgb(56 42 225 / 16%);
+  background-color: rgb(56, 42, 225);
+  color: #fff;
+}
+
+.payment span {
+  margin: auto;
+}
+
+.payment:hover {
+  opacity: 0.7;
+}
+
+.cancel-order {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  color: #00000069;
+  font-weight: 600;
+}
+
+.cancel-order span {
+  margin: auto;
+  color: #00000069;
+  font-weight: 600;
+}
+
+.cancel-order span:hover {
+  color: #000;
+}
+
+i {
+  padding: 0.7em;
+  background-color: rgb(23 23 220 / 11%);
+  border-radius: 50%;
+  opacity: 0.5;
+  margin-right: 1em;
+}
