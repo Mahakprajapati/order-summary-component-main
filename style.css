@@ -3,19 +3,17 @@ body {
 }
 
 main {
+  background-image: url('./order-summary-component-main/images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+
   background-color: rgb(224, 232, 255);
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 6em;
   font-family: "Red Hat Display", sans-serif;
-}
-
-.background-desktop {
-  position: relative;
-  top: -11.5em;
 }
 
 .container-1 {
@@ -29,9 +27,8 @@ main {
   overflow: hidden;
   box-shadow: 1em 1em 1em rgb(56 42 225 / 8%);
   margin-inline: 2em;
-  margin-top: 6em;
+  margin-block: 3em;;
 
-  position: absolute;
 }
 
 .container-1 img {
